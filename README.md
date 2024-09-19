@@ -1,5 +1,6 @@
 <h1>Descripción</h1>
-Ejemplo de creación de una API rest sencilla con Django.
+https://roadmap.sh/projects/blogging-platform-api
+Ejemplo de creación de una API rest sencilla con Django y el modulo django rest framework.
 El sistema permite agregar nuevos registros, eliminar y/o editar los existentes, listar uno o todos los registros y filtrar
 por una cadena de wildchar.
 
@@ -10,7 +11,11 @@ La aplicación hace uso del módulo django rest framework para demostrar cómo s
 sencilla, altamente modificable y con pocas líneas de código.
 
 <h1>USO</h1>
-la api tiene las siguientes urls:
+Descarga o clona el proyecto en tu equipo local
+Ejecuta el servidor de pruebas de django (py manage.py runserver) y navega a la url que te indica la app (usualmente http://localhost:8000) y agregale "/Blog"
+esto te llevará a la página de inicio de la app la cual es la de listar los Post existentes.
+
+Apartir de aquí, la api tiene las siguientes urls:
 <h2>A través del método GET</h2>
 <ul>
   <li><b>/Blog/</b> => Lista todos los registros de la base de datos</li>

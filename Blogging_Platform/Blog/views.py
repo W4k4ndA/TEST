@@ -10,7 +10,6 @@ from django.db.models import Q
 
 
 class BlogList(generics.ListCreateAPIView):
-    permission_classes = [AllowAny]
     queryset = Blog.objects.all()
     serializer_class = BlogSerializer
 

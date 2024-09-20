@@ -1,11 +1,11 @@
 <h1>Descripción</h1>
-https://roadmap.sh/projects/blogging-platform-api
+https://roadmap.sh/projects/blogging-platform-api <br>
 Ejemplo de creación de una API rest sencilla con Django y el modulo django rest framework.
 El sistema permite agregar nuevos registros, eliminar y/o editar los existentes, listar uno o todos los registros y filtrar
 por una cadena de wildchar.
 
-El sistema utiliza la base de datos SQLite3 por defecto que viene integrada en django, esto debido a que para la sencillez
-de la implementacion no era necesario gestionar un servidor de db externo.
+El sistema utiliza la base de datos SQLite3 (incluida en el proyecto) por defecto que viene integrada en django, esto debido a que para la sencillez
+de la implementaciónn no era necesario gestionar un servidor de db externo.
 
 La aplicación hace uso del módulo django rest framework para demostrar cómo se puede hacer un CRUD de manera sumamente
 sencilla, altamente modificable y con pocas líneas de código.

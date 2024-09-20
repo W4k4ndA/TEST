@@ -25,7 +25,7 @@ Apartir de aquí, la api tiene las siguientes urls:
 <br>
 <h2>A través del método POST</h2>
 <ul>
-  <li><b>/Blog/</b> => Debe contener en el body del request un json con las variables title, content, category y tags (todas strings)
+  <li><b>/Blog/</b> => Debe contener en el body del request un json con las variables title, content, category y tags. Todos los campos son strings salvo tags el cual es una lista de strings json (["VAL1", "VAL2", ... "VALn"])
   Retorna un json con los datos del objeto nuevo creado (incluyendo su id)</li>
 </ul>
 <br>
